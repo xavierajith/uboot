@@ -511,6 +511,7 @@ ulong bootm_disable_interrupts(void)
  */
 static int fixup_silent_linux(char *buf, int maxlen)
 {
+	// test change in product1 branch
 	int want_silent;
 	char *cmdline;
 	int size;

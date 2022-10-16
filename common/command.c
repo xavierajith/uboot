@@ -188,6 +188,7 @@ int complete_subcmdv(struct cmd_tbl *cmdtp, int count, int argc,
 		     char *const argv[], char last_char,
 		     int maxv, char *cmdv[])
 {
+	// test change in product1 branch
 #ifdef CONFIG_CMDLINE
 	const struct cmd_tbl *cmdend = cmdtp + count;
 	const char *p;
